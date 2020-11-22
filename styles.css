@@ -1,0 +1,17 @@
+#box-container {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+#arrow-down {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 24px solid black;
+  top: 70px;
+  left: 21px;
+}
